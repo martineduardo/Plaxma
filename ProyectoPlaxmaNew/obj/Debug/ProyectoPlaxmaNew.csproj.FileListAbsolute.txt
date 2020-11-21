@@ -1,0 +1,17 @@
+C:\Users\Bryan\Desktop\USB\CLASES\7_SEMESTRE\DPS 1\Proyecto\ProyectoPlaxmaNew\ProyectoPlaxmaNew\bin\Debug\ProyectoPlaxmaNew.exe.config
+C:\Users\Bryan\Desktop\USB\CLASES\7_SEMESTRE\DPS 1\Proyecto\ProyectoPlaxmaNew\ProyectoPlaxmaNew\bin\Debug\ProyectoPlaxmaNew.exe
+C:\Users\Bryan\Desktop\USB\CLASES\7_SEMESTRE\DPS 1\Proyecto\ProyectoPlaxmaNew\ProyectoPlaxmaNew\bin\Debug\ProyectoPlaxmaNew.pdb
+C:\Users\Bryan\Desktop\USB\CLASES\7_SEMESTRE\DPS 1\Proyecto\ProyectoPlaxmaNew\ProyectoPlaxmaNew\obj\Debug\ProyectoPlaxmaNew.csprojAssemblyReference.cache
+C:\Users\Bryan\Desktop\USB\CLASES\7_SEMESTRE\DPS 1\Proyecto\ProyectoPlaxmaNew\ProyectoPlaxmaNew\obj\Debug\ProyectoPlaxmaNew.Empleado.InicioSesionEmpleado.resources
+C:\Users\Bryan\Desktop\USB\CLASES\7_SEMESTRE\DPS 1\Proyecto\ProyectoPlaxmaNew\ProyectoPlaxmaNew\obj\Debug\ProyectoPlaxmaNew.Menu_Principal.resources
+C:\Users\Bryan\Desktop\USB\CLASES\7_SEMESTRE\DPS 1\Proyecto\ProyectoPlaxmaNew\ProyectoPlaxmaNew\obj\Debug\ProyectoPlaxmaNew.Properties.Resources.resources
+C:\Users\Bryan\Desktop\USB\CLASES\7_SEMESTRE\DPS 1\Proyecto\ProyectoPlaxmaNew\ProyectoPlaxmaNew\obj\Debug\ProyectoPlaxmaNew.csproj.GenerateResource.cache
+C:\Users\Bryan\Desktop\USB\CLASES\7_SEMESTRE\DPS 1\Proyecto\ProyectoPlaxmaNew\ProyectoPlaxmaNew\obj\Debug\ProyectoPlaxmaNew.exe
+C:\Users\Bryan\Desktop\USB\CLASES\7_SEMESTRE\DPS 1\Proyecto\ProyectoPlaxmaNew\ProyectoPlaxmaNew\obj\Debug\ProyectoPlaxmaNew.pdb
+C:\Users\Bryan\Desktop\USB\CLASES\7_SEMESTRE\DPS 1\Proyecto\ProyectoPlaxmaNew\ProyectoPlaxmaNew\obj\Debug\ProyectoPlaxmaNew.Empleado.SolicitarVehiculo.resources
+C:\Users\Bryan\Desktop\USB\CLASES\7_SEMESTRE\DPS 1\Proyecto\ProyectoPlaxmaNew\ProyectoPlaxmaNew\obj\Debug\ProyectoPlaxmaNew.Administrador.MenuAdmin.resources
+C:\Users\Bryan\Desktop\USB\CLASES\7_SEMESTRE\DPS 1\Proyecto\ProyectoPlaxmaNew\ProyectoPlaxmaNew\obj\Debug\ProyectoPlaxmaNew.Administrador.Solicitudes.resources
+C:\Users\Bryan\Desktop\USB\CLASES\7_SEMESTRE\DPS 1\Proyecto\ProyectoPlaxmaNew\ProyectoPlaxmaNew\obj\Debug\ProyectoPlaxmaNew.Administrador.Bitacora.resources
+C:\Users\Bryan\Desktop\USB\CLASES\7_SEMESTRE\DPS 1\Proyecto\ProyectoPlaxmaNew\ProyectoPlaxmaNew\obj\Debug\ProyectoPlaxmaNew.Administrador.DarAltaEmpleado.resources
+C:\Users\Bryan\Desktop\USB\CLASES\7_SEMESTRE\DPS 1\Proyecto\ProyectoPlaxmaNew\ProyectoPlaxmaNew\obj\Debug\ProyectoPlaxmaNew.Administrador.DarAltaVehiculo.resources
+C:\Users\Bryan\Desktop\USB\CLASES\7_SEMESTRE\DPS 1\Proyecto\ProyectoPlaxmaNew\ProyectoPlaxmaNew\obj\Debug\ProyectoPlaxmaNew.Administrador.InicioSesionAdmin.resources
