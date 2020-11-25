@@ -42,12 +42,12 @@
             // 
             // BTN_AltaEmpleado
             // 
-            this.BTN_AltaEmpleado.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.BTN_AltaEmpleado.BackColor = System.Drawing.Color.Gray;
             this.BTN_AltaEmpleado.FlatAppearance.BorderSize = 0;
             this.BTN_AltaEmpleado.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.BTN_AltaEmpleado.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.BTN_AltaEmpleado.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BTN_AltaEmpleado.ForeColor = System.Drawing.Color.LightGray;
+            this.BTN_AltaEmpleado.ForeColor = System.Drawing.Color.White;
             this.BTN_AltaEmpleado.Location = new System.Drawing.Point(618, 168);
             this.BTN_AltaEmpleado.Name = "BTN_AltaEmpleado";
             this.BTN_AltaEmpleado.Size = new System.Drawing.Size(322, 71);
@@ -58,12 +58,12 @@
             // 
             // BTN_AltaAuto
             // 
-            this.BTN_AltaAuto.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.BTN_AltaAuto.BackColor = System.Drawing.Color.Gray;
             this.BTN_AltaAuto.FlatAppearance.BorderSize = 0;
             this.BTN_AltaAuto.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.BTN_AltaAuto.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.BTN_AltaAuto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BTN_AltaAuto.ForeColor = System.Drawing.Color.LightGray;
+            this.BTN_AltaAuto.ForeColor = System.Drawing.Color.White;
             this.BTN_AltaAuto.Location = new System.Drawing.Point(273, 168);
             this.BTN_AltaAuto.Name = "BTN_AltaAuto";
             this.BTN_AltaAuto.Size = new System.Drawing.Size(322, 71);
@@ -76,7 +76,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 12F);
-            this.label1.ForeColor = System.Drawing.Color.DimGray;
+            this.label1.ForeColor = System.Drawing.Color.Black;
             this.label1.Location = new System.Drawing.Point(354, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(501, 23);
@@ -85,12 +85,12 @@
             // 
             // BTN_Bitacora
             // 
-            this.BTN_Bitacora.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.BTN_Bitacora.BackColor = System.Drawing.Color.Gray;
             this.BTN_Bitacora.FlatAppearance.BorderSize = 0;
             this.BTN_Bitacora.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.BTN_Bitacora.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.BTN_Bitacora.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BTN_Bitacora.ForeColor = System.Drawing.Color.LightGray;
+            this.BTN_Bitacora.ForeColor = System.Drawing.Color.White;
             this.BTN_Bitacora.Location = new System.Drawing.Point(618, 69);
             this.BTN_Bitacora.Name = "BTN_Bitacora";
             this.BTN_Bitacora.Size = new System.Drawing.Size(322, 71);
@@ -101,12 +101,12 @@
             // 
             // BTN_Solicitudes
             // 
-            this.BTN_Solicitudes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.BTN_Solicitudes.BackColor = System.Drawing.Color.Gray;
             this.BTN_Solicitudes.FlatAppearance.BorderSize = 0;
             this.BTN_Solicitudes.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.BTN_Solicitudes.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.BTN_Solicitudes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BTN_Solicitudes.ForeColor = System.Drawing.Color.LightGray;
+            this.BTN_Solicitudes.ForeColor = System.Drawing.Color.White;
             this.BTN_Solicitudes.Location = new System.Drawing.Point(273, 69);
             this.BTN_Solicitudes.Name = "BTN_Solicitudes";
             this.BTN_Solicitudes.Size = new System.Drawing.Size(322, 71);
@@ -139,7 +139,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(964, 283);
             this.Controls.Add(this.BTN_AltaEmpleado);
             this.Controls.Add(this.BTN_AltaAuto);

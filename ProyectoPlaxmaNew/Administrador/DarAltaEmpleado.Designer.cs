@@ -56,6 +56,8 @@
             this.BTN_CerrarSesion = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.TablaCarro)).BeginInit();
             this.panel3.SuspendLayout();
@@ -95,6 +97,8 @@
             // 
             // panel3
             // 
+            this.panel3.Controls.Add(this.textBox1);
+            this.panel3.Controls.Add(this.label5);
             this.panel3.Controls.Add(this.button5);
             this.panel3.Controls.Add(this.button1);
             this.panel3.Controls.Add(this.button6);
@@ -223,7 +227,7 @@
             // txtEmpleado
             // 
             this.txtEmpleado.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.txtEmpleado.Location = new System.Drawing.Point(180, 64);
+            this.txtEmpleado.Location = new System.Drawing.Point(145, 65);
             this.txtEmpleado.Name = "txtEmpleado";
             this.txtEmpleado.Size = new System.Drawing.Size(156, 22);
             this.txtEmpleado.TabIndex = 34;
@@ -231,7 +235,7 @@
             // txtChofer
             // 
             this.txtChofer.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.txtChofer.Location = new System.Drawing.Point(180, 92);
+            this.txtChofer.Location = new System.Drawing.Point(145, 93);
             this.txtChofer.Name = "txtChofer";
             this.txtChofer.Size = new System.Drawing.Size(156, 22);
             this.txtChofer.TabIndex = 35;
@@ -239,7 +243,7 @@
             // txtFecha
             // 
             this.txtFecha.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.txtFecha.Location = new System.Drawing.Point(180, 176);
+            this.txtFecha.Location = new System.Drawing.Point(145, 186);
             this.txtFecha.Name = "txtFecha";
             this.txtFecha.Size = new System.Drawing.Size(156, 22);
             this.txtFecha.TabIndex = 39;
@@ -247,7 +251,7 @@
             // txtRuta
             // 
             this.txtRuta.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.txtRuta.Location = new System.Drawing.Point(180, 148);
+            this.txtRuta.Location = new System.Drawing.Point(145, 154);
             this.txtRuta.Name = "txtRuta";
             this.txtRuta.Size = new System.Drawing.Size(156, 22);
             this.txtRuta.TabIndex = 36;
@@ -255,7 +259,7 @@
             // txtPlaca
             // 
             this.txtPlaca.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.txtPlaca.Location = new System.Drawing.Point(180, 120);
+            this.txtPlaca.Location = new System.Drawing.Point(145, 121);
             this.txtPlaca.Name = "txtPlaca";
             this.txtPlaca.Size = new System.Drawing.Size(156, 22);
             this.txtPlaca.TabIndex = 38;
@@ -386,11 +390,30 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Century Gothic", 10F);
+            this.label5.ForeColor = System.Drawing.Color.Black;
+            this.label5.Location = new System.Drawing.Point(12, 213);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(68, 21);
+            this.label5.TabIndex = 57;
+            this.label5.Text = "Cargo:";
+            // 
+            // textBox1
+            // 
+            this.textBox1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.textBox1.Location = new System.Drawing.Point(145, 215);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(156, 22);
+            this.textBox1.TabIndex = 58;
+            // 
             // DarAltaEmpleado
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(1222, 397);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel3);
@@ -440,5 +463,7 @@
         private System.Windows.Forms.Button BTN_CerrarSesion;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label5;
     }
 }

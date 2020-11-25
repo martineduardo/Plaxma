@@ -56,6 +56,8 @@
             this.BTN_CerrarSesion = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button2 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.TablaCarro)).BeginInit();
             this.panel3.SuspendLayout();
@@ -72,6 +74,7 @@
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(635, 318);
             this.panel4.TabIndex = 66;
+            this.panel4.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint);
             // 
             // TablaCarro
             // 
@@ -95,6 +98,8 @@
             // 
             // panel3
             // 
+            this.panel3.Controls.Add(this.comboBox1);
+            this.panel3.Controls.Add(this.label1);
             this.panel3.Controls.Add(this.button5);
             this.panel3.Controls.Add(this.button1);
             this.panel3.Controls.Add(this.label7);
@@ -121,7 +126,7 @@
             this.button5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.button5.ForeColor = System.Drawing.Color.LightGray;
-            this.button5.Location = new System.Drawing.Point(221, 219);
+            this.button5.Location = new System.Drawing.Point(220, 250);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(94, 40);
             this.button5.TabIndex = 53;
@@ -135,7 +140,7 @@
             this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.button1.ForeColor = System.Drawing.Color.LightGray;
-            this.button1.Location = new System.Drawing.Point(121, 219);
+            this.button1.Location = new System.Drawing.Point(120, 250);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(94, 40);
             this.button1.TabIndex = 52;
@@ -169,7 +174,7 @@
             this.button4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.button4.ForeColor = System.Drawing.Color.LightGray;
-            this.button4.Location = new System.Drawing.Point(21, 219);
+            this.button4.Location = new System.Drawing.Point(20, 250);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(94, 40);
             this.button4.TabIndex = 51;
@@ -181,11 +186,11 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 10F);
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(8, 54);
+            this.label2.Location = new System.Drawing.Point(0, 54);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(157, 21);
+            this.label2.Size = new System.Drawing.Size(177, 21);
             this.label2.TabIndex = 28;
-            this.label2.Text = "Modelo Vehículo:";
+            this.label2.Text = "Número Ecónomico:";
             // 
             // label3
             // 
@@ -387,11 +392,31 @@
             this.button2.Text = "Dar de alta de nuevo";
             this.button2.UseVisualStyleBackColor = false;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 10F);
+            this.label1.ForeColor = System.Drawing.Color.Black;
+            this.label1.Location = new System.Drawing.Point(8, 213);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(201, 21);
+            this.label1.TabIndex = 54;
+            this.label1.Text = "Estado(Disponibilidad):";
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(215, 210);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(118, 24);
+            this.comboBox1.TabIndex = 55;
+            // 
             // DarAltaVehiculo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(1222, 399);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel3);
@@ -441,5 +466,7 @@
         private System.Windows.Forms.Button BTN_CerrarSesion;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Label label1;
     }
 }

@@ -82,6 +82,7 @@
     <Compile Include="Administrador\Solicitudes.Designer.cs">
       <DependentUpon>Solicitudes.cs</DependentUpon>
     </Compile>
+    <Compile Include="Conexion\Conexion.cs" />
     <Compile Include="Empleado\InicioSesionEmpleado.cs">
       <SubType>Form</SubType>
     </Compile>

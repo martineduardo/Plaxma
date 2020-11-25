@@ -95,7 +95,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(94, 40);
             this.button1.TabIndex = 52;
-            this.button1.Text = "Eliminar";
+            this.button1.Text = "Denegar";
             this.button1.UseVisualStyleBackColor = false;
             // 
             // label8
@@ -222,7 +222,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(1222, 399);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel2);

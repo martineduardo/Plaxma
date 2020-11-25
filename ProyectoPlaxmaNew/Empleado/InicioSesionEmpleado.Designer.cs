@@ -32,10 +32,11 @@
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.BTN_InicioSesion = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.TxtContraseña = new System.Windows.Forms.TextBox();
+            this.TxtUsuario = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.button2 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -61,7 +62,7 @@
             this.BTN_InicioSesion.ForeColor = System.Drawing.Color.LightGray;
             this.BTN_InicioSesion.Location = new System.Drawing.Point(347, 195);
             this.BTN_InicioSesion.Name = "BTN_InicioSesion";
-            this.BTN_InicioSesion.Size = new System.Drawing.Size(322, 40);
+            this.BTN_InicioSesion.Size = new System.Drawing.Size(152, 40);
             this.BTN_InicioSesion.TabIndex = 21;
             this.BTN_InicioSesion.Text = "INICIAR SESIÓN";
             this.BTN_InicioSesion.UseVisualStyleBackColor = false;
@@ -71,36 +72,40 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 12F);
-            this.label1.ForeColor = System.Drawing.Color.DimGray;
+            this.label1.ForeColor = System.Drawing.Color.Black;
             this.label1.Location = new System.Drawing.Point(352, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(302, 23);
             this.label1.TabIndex = 20;
             this.label1.Text = "Inicio de sesión EMPLEADO(A).";
             // 
-            // textBox2
+            // TxtContraseña
             // 
-            this.textBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox2.Location = new System.Drawing.Point(347, 139);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(322, 25);
-            this.textBox2.TabIndex = 19;
-            this.textBox2.Text = "CONTRASEÑA";
+            this.TxtContraseña.BackColor = System.Drawing.Color.DarkGray;
+            this.TxtContraseña.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.TxtContraseña.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtContraseña.ForeColor = System.Drawing.Color.Black;
+            this.TxtContraseña.Location = new System.Drawing.Point(347, 139);
+            this.TxtContraseña.Name = "TxtContraseña";
+            this.TxtContraseña.Size = new System.Drawing.Size(322, 25);
+            this.TxtContraseña.TabIndex = 19;
+            this.TxtContraseña.Text = "CONTRASEÑA";
+            this.TxtContraseña.Enter += new System.EventHandler(this.TxtContraseña_Enter);
+            this.TxtContraseña.Leave += new System.EventHandler(this.TxtContraseña_Leave);
             // 
-            // textBox1
+            // TxtUsuario
             // 
-            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox1.Location = new System.Drawing.Point(347, 97);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(322, 25);
-            this.textBox1.TabIndex = 18;
-            this.textBox1.Text = "USUARIO";
+            this.TxtUsuario.BackColor = System.Drawing.Color.DarkGray;
+            this.TxtUsuario.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.TxtUsuario.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtUsuario.ForeColor = System.Drawing.Color.Black;
+            this.TxtUsuario.Location = new System.Drawing.Point(347, 97);
+            this.TxtUsuario.Name = "TxtUsuario";
+            this.TxtUsuario.Size = new System.Drawing.Size(322, 25);
+            this.TxtUsuario.TabIndex = 18;
+            this.TxtUsuario.Text = "USUARIO";
+            this.TxtUsuario.Enter += new System.EventHandler(this.TxtUsuario_Enter);
+            this.TxtUsuario.Leave += new System.EventHandler(this.TxtUsuario_Leave);
             // 
             // panel1
             // 
@@ -122,17 +127,34 @@
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
             // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.ForeColor = System.Drawing.Color.LightGray;
+            this.button2.Location = new System.Drawing.Point(517, 195);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(152, 40);
+            this.button2.TabIndex = 23;
+            this.button2.Text = "CERRAR SESIÓN";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // InicioSesionEmpleado
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(762, 283);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.BTN_InicioSesion);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.TxtContraseña);
+            this.Controls.Add(this.TxtUsuario);
             this.Controls.Add(this.panel1);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.Name = "InicioSesionEmpleado";
@@ -149,9 +171,10 @@
         private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.Button BTN_InicioSesion;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox TxtContraseña;
+        private System.Windows.Forms.TextBox TxtUsuario;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button button2;
     }
 }

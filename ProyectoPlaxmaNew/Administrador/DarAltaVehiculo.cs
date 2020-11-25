@@ -44,5 +44,10 @@ namespace ProyectoPlaxmaNew.Administrador
             ProyectoPlaxmaNew.Administrador.DarAltaEmpleado formAltaE = new ProyectoPlaxmaNew.Administrador.DarAltaEmpleado();
             formAltaE.Show();
         }
+
+        private void panel4_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
