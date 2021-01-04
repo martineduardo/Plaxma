@@ -46,53 +46,58 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Administrador\Bitacora.cs">
+    <Compile Include="Controller\ClaseParaBitacora.cs" />
+    <Compile Include="Controller\ClaseParaDarAltaEmpleado.cs" />
+    <Compile Include="Controller\ClaseParaSolicitarAutos.cs" />
+    <Compile Include="Controller\ClaseParaSolicitudesAdmin.cs" />
+    <Compile Include="Model\Conexion.cs" />
+    <Compile Include="View\Administrador\Bitacora.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Administrador\Bitacora.Designer.cs">
+    <Compile Include="View\Administrador\Bitacora.Designer.cs">
       <DependentUpon>Bitacora.cs</DependentUpon>
     </Compile>
-    <Compile Include="Administrador\DarAltaEmpleado.cs">
+    <Compile Include="View\Administrador\DarAltaEmpleado.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Administrador\DarAltaEmpleado.Designer.cs">
+    <Compile Include="View\Administrador\DarAltaEmpleado.Designer.cs">
       <DependentUpon>DarAltaEmpleado.cs</DependentUpon>
     </Compile>
-    <Compile Include="Administrador\DarAltaVehiculo.cs">
+    <Compile Include="View\Administrador\DarAltaVehiculo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Administrador\DarAltaVehiculo.Designer.cs">
+    <Compile Include="View\Administrador\DarAltaVehiculo.Designer.cs">
       <DependentUpon>DarAltaVehiculo.cs</DependentUpon>
     </Compile>
-    <Compile Include="Administrador\InicioSesionAdmin.cs">
+    <Compile Include="View\Administrador\InicioSesionAdmin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Administrador\InicioSesionAdmin.Designer.cs">
+    <Compile Include="View\Administrador\InicioSesionAdmin.Designer.cs">
       <DependentUpon>InicioSesionAdmin.cs</DependentUpon>
     </Compile>
-    <Compile Include="Administrador\MenuAdmin.cs">
+    <Compile Include="View\Administrador\MenuAdmin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Administrador\MenuAdmin.Designer.cs">
+    <Compile Include="View\Administrador\MenuAdmin.Designer.cs">
       <DependentUpon>MenuAdmin.cs</DependentUpon>
     </Compile>
-    <Compile Include="Administrador\Solicitudes.cs">
+    <Compile Include="View\Administrador\Solicitudes.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Administrador\Solicitudes.Designer.cs">
+    <Compile Include="View\Administrador\Solicitudes.Designer.cs">
       <DependentUpon>Solicitudes.cs</DependentUpon>
     </Compile>
     <Compile Include="Conexion\Conexion.cs" />
-    <Compile Include="Empleado\InicioSesionEmpleado.cs">
+    <Compile Include="View\Empleado\InicioSesionEmpleado.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Empleado\InicioSesionEmpleado.Designer.cs">
+    <Compile Include="View\Empleado\InicioSesionEmpleado.Designer.cs">
       <DependentUpon>InicioSesionEmpleado.cs</DependentUpon>
     </Compile>
-    <Compile Include="Empleado\SolicitarVehiculo.cs">
+    <Compile Include="View\Empleado\SolicitarVehiculo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Empleado\SolicitarVehiculo.Designer.cs">
+    <Compile Include="View\Empleado\SolicitarVehiculo.Designer.cs">
       <DependentUpon>SolicitarVehiculo.cs</DependentUpon>
     </Compile>
     <Compile Include="Menu_Principal.cs">
@@ -103,28 +108,28 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Administrador\Bitacora.resx">
+    <EmbeddedResource Include="View\Administrador\Bitacora.resx">
       <DependentUpon>Bitacora.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Administrador\DarAltaEmpleado.resx">
+    <EmbeddedResource Include="View\Administrador\DarAltaEmpleado.resx">
       <DependentUpon>DarAltaEmpleado.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Administrador\DarAltaVehiculo.resx">
+    <EmbeddedResource Include="View\Administrador\DarAltaVehiculo.resx">
       <DependentUpon>DarAltaVehiculo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Administrador\InicioSesionAdmin.resx">
+    <EmbeddedResource Include="View\Administrador\InicioSesionAdmin.resx">
       <DependentUpon>InicioSesionAdmin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Administrador\MenuAdmin.resx">
+    <EmbeddedResource Include="View\Administrador\MenuAdmin.resx">
       <DependentUpon>MenuAdmin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Administrador\Solicitudes.resx">
+    <EmbeddedResource Include="View\Administrador\Solicitudes.resx">
       <DependentUpon>Solicitudes.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Empleado\InicioSesionEmpleado.resx">
+    <EmbeddedResource Include="View\Empleado\InicioSesionEmpleado.resx">
       <DependentUpon>InicioSesionEmpleado.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Empleado\SolicitarVehiculo.resx">
+    <EmbeddedResource Include="View\Empleado\SolicitarVehiculo.resx">
       <DependentUpon>SolicitarVehiculo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Menu_Principal.resx">
